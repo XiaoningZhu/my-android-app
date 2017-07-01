@@ -1,0 +1,53 @@
+<resources>
+    <string name="app_name">阅读器</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">用户注册</string>
+    <string name="action_settings1">导入本地书籍</string>
+
+    <string name="search">搜索</string> 
+    <string name="addfile">添加文件</string>
+    <string name="info">系统SDCard目录文件路径：\n</string> 
+    <string name="pleaseInput">请输入关键字!</string> 
+    <string name="notFound">SD卡中没有相关文件!!</string> 
+    <string name="pathError">读取路径出错!!</string> 
+
+    <string name="bookname">遮天</string>
+    <string name="author">辰东</string>
+    <string name="test_str">测试文字</string>
+
+    <string name="username">用户名</string>
+    <string name="account">我的账户</string>
+    <string name="signin">签到</string>
+    <string name="cloud">云书架</string>
+    <string name="zone">有声专区</string>
+    <string name="set">设置</string>
+
+    <string-array name="music_name">
+        <item>丹青客</item>
+        <item>殿书</item>
+        <item>浮诛</item>
+        <item>离思</item>
+        <item>屏里狐</item>
+        <item>青衣谣</item>
+        <item>微微一笑很倾城</item>
+        <item>一笑倾城</item>
+
+
+    </string-array>
+
+    <string-array name="music">
+        <item>music1.mp3</item>
+        <item>music2.mp3</item>
+        <item>music3.mp3</item>
+        <item>music4.mp3</item>
+        <item>music5.mp3</item>
+        <item>music6.mp3</item>
+        <item>music7.mp3</item>
+        <item>music8.mp3</item>
+
+
+    </string-array>
+</resources>

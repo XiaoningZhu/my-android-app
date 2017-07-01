@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/file_toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@drawable/titlebar_big"
+        android:titleTextColor="@color/text_color"
+        app:popupTheme="@style/AppTheme.PopupOverlay"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"/>
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/key"
+        android:layout_below="@+id/file_toolbar"
+        android:textSize="@dimen/bookname_size"
+        android:layout_margin="@dimen/activity_horizontal_margin" />
+
+    <Button
+        android:id="@+id/search"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/search"
+        android:textSize="@dimen/chapter_size"
+        android:padding="@dimen/margin"
+        android:background="@color/button"
+        android:layout_below="@id/key"
+        android:layout_marginBottom="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"/>
+
+    <TextView
+        android:id="@+id/TextView_result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello World!"
+        android:textSize="20sp"
+        android:layout_below="@id/search"
+        android:layout_margin="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/add_file"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/addfile"
+        android:textSize="@dimen/chapter_size"
+        android:padding="@dimen/margin"
+        android:background="@color/button"
+        android:layout_below="@+id/TextView_result"
+        android:layout_marginLeft="@dimen/activity_horizontal_margin"
+        android:layout_marginRight="@dimen/activity_horizontal_margin"
+        android:visibility="invisible"/>
+</RelativeLayout>
